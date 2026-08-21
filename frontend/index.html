@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memorial dos gaems — Catálogo de Jogos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">M</div>
+      Memorial dos gaems
+    </div>
+
+    <nav class="nav" id="nav"></nav>
+
+  </header>
+
+  <main>
+    <div class="catalog" id="catalog">
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+          <div class="eyebrow" id="heroEyebrow">🎮 Catálogo PlayStation</div>
+          <h1 id="heroTitle">PlayStation</h1>
+          <p id="heroText">Explore alguns dos jogos mais marcantes da plataforma. Passe o mouse pelas capas para ver informações rápidas e clique para abrir os detalhes.</p>
+          <div class="hero-actions">
+            <button class="primary" onclick="openQuiz()">Fazer quiz</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="games">
+        <div class="section-head">
+          <div>
+            <h2 id="sectionTitle">Jogos de PlayStation</h2>
+            <p id="sectionText">10 títulos selecionados para esta plataforma.</p>
+          </div>
+          <input class="search" id="search" type="search" placeholder="Buscar jogo..." />
+        </div>
+        <div class="game-grid" id="gameGrid"></div>
+      </section>
+    </div>
+
+    <section class="quiz-wrap" id="quizWrap">
+      <div class="quiz-panel">
+        <div class="quiz-top">
+          <div>
+            <div class="eyebrow">🧠 Quiz Memorial dos gaems</div>
+            <strong id="quizCounter">Pergunta 1 de 12</strong>
+          </div>
+          <button class="secondary" onclick="backToCatalog()">Voltar ao catálogo</button>
+        </div>
+
+        <div class="quiz-progress"><span id="progressBar"></span></div>
+        <div id="quizContent"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Protótipo educacional — Memorial dos gaems • HTML + CSS + JavaScript
+  </footer>
+
+  <div class="modal" id="modal" onclick="modalBackdrop(event)">
+    <article class="modal-card">
+      <div class="modal-hero">
+        <button class="close" onclick="closeModal()">×</button>
+        <div>
+          <div class="eyebrow" id="modalPlatform"></div>
+          <h2 id="modalTitle" style="font-size:42px;margin:0"></h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p id="modalDescription"></p>
+        <div class="detail-grid">
+          <div class="detail"><small>Ano</small><strong id="modalYear"></strong></div>
+          <div class="detail"><small>Gênero</small><strong id="modalGenre"></strong></div>
+          <div class="detail"><small>Desenvolvedora</small><strong id="modalStudio"></strong></div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
