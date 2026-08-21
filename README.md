@@ -55,3 +55,5 @@ Games-Album/
 
 2. **Abrir o Frontend:**
    - Abra o arquivo [`index.html`](file:///c:/Games/Becked/frontend/index.html) no seu navegador ou utilize o Live Server.
+  
+3. **Link para a pagina**  https://eliandro7.github.io/Becked/frontend/index.html
