@@ -1,4 +1,4 @@
-# 🎮 Alura Games Album - Copa dos Consoles 🕹️
+# Copa dos Consoles 🕹️
 
 > Um álbum de figurinhas digital e interativo 3D dedicado aos jogos lendários e capas icônicas que marcaram gerações de consoles.
 
@@ -10,23 +10,20 @@
 
 ## 🌟 Sobre o Projeto
 
-O **Alura Games Album** é um álbum de figurinhas web interativo com tema Gamer. As 30 figurinhas estão organizadas por consoles icônicos:
+O **Memorial games** é um álbum de capas web interativo com tema Gamer. As 40 capas estão organizadas por consoles icônicos:
 
-1. 🕹️ **SNES (Super Nintendo):** *Super Mario World, Chrono Trigger, Donkey Kong Country, Zelda A Link to the Past, Super Metroid*
-2. 🎮 **PlayStation 2 (PS2):** *GTA San Andreas, God of War II, Shadow of the Colossus, Resident Evil 4, NFS Most Wanted*
-3. 🎮 **PlayStation 3 (PS3):** *The Last of Us, Uncharted 2, Red Dead Redemption, Metal Gear Solid 4, God of War III*
-4. 🟢 **Xbox Classic:** *Halo Combat Evolved, Halo 2, Fable, Star Wars KOTOR, Ninja Gaiden Black*
-5. 🟢 **Xbox 360:** *Halo 3, Gears of War 2, Forza Horizon, Left 4 Dead 2, BioShock*
-6. 🏆 **PS4 & Clássicos Modernos:** *God of War (2018), The Witcher 3, Red Dead Redemption 2, Elden Ring, Grand Theft Auto V*
+1. 🕹️ **Nitendo**
+2. 🎮 **Playstation**
+4. 🟢 **Xbox**
+5. 🟣**Pc**
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 📖 **Folheamento 3D Realista:** Animação fluida de dobradura das páginas usando mouse, gestos de toque (touch) ou setas do teclado (`←` e `→`).
-- 🔊 **Efeito Sonoro Dinâmico:** Ruído e filtro de papel sintetizado via Web Audio API.
 - ⚡ **Integração com Backend FastAPI:** Figurinhas e capas de jogos consumidas dinamicamente do endpoint `/figurinhas`.
-- 🎨 **Estilização por Consoles:** Badges e tags com cores e estilos característicos de cada plataforma (SNES, PS2, PS3, Xbox, Xbox 360, PS4).
+- 🎨 **Estilização por Consoles:** Badges e tags com cores e estilos característicos de cada plataforma (Nitendo,PlayStation,Xbox,pc).
+- 🧠 **QUIZ** Relacionado as jogos
 
 ---
 
